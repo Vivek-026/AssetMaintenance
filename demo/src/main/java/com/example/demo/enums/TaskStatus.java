@@ -1,0 +1,16 @@
+package com.example.demo.enums;
+
+public enum TaskStatus {
+    REPORTED,
+    ASSIGNED,
+    IN_PROGRESS,
+    MATERIAL_REQUESTED,
+    MATERIAL_APPROVED,
+    MATERIAL_REJECTED,
+    COMPLETED_BY_TECHNICIAN,
+    CONFIRMED_COMPLETED,
+    COMPLETED,
+    REOPENED,
+    REJECTED
+}
+

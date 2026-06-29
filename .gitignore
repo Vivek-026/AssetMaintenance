@@ -1,0 +1,49 @@
+# =========================
+# Java / Spring Boot Backend
+# =========================
+demo/target/
+demo/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.*
+application-local.properties
+application-dev.properties
+
+# =========================
+# React / Vite Frontend
+# =========================
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+Frontend/.env.*
+Frontend/.vite/
+
+# =========================
+# IDE files
+# =========================
+.idea/
+*.iml
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# NPM / package manager logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
