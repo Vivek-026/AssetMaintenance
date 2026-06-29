@@ -69,7 +69,7 @@ function TechnicianDashboard() {
                         View All My Tasks
                     </Button>
                     <Button variant="warning" onClick={() => navigate('/material-requests/my')}>
-                        📦 My Material Requests
+                        My Material Requests
                     </Button>
                 </div>
             </Card>
